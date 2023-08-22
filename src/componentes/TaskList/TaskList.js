@@ -14,7 +14,7 @@ export default function TaskList({
   onDeleteTask
 }) {
   const addTask = () => {
-    onAddTask("Nova Tafera", taskState);
+    onAddTask("Nova Tarefa", taskState);
   };
 
   return (
