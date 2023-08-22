@@ -50,7 +50,7 @@ export default function TaskItem({
         <select onChange={onTaskStateChange} value={taskState}>
           <option value="Pendente">Pendente</option>
           <option value="Fazendo">Fazendo</option>
-          <option value="Completo">Comp</option>
+          <option value="Completo">Completo</option>
         </select>
       </div>
     );
